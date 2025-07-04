@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アプラス社 打ち合わせ報告書</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+        }
+        .icon-bg {
+            background-color: #eef2ff; /* indigo-100 */
+            color: #4338ca; /* indigo-700 */
+        }
+        .kintori-highlight {
+            color: #1d4ed8; /* blue-700 */
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">📊 アプラス社 打ち合わせ報告書</h1>
+            <p class="text-md text-gray-600 mt-2">信販提携における各種商材の取り扱いと今後の展開について</p>
+            <p class="text-sm text-gray-500 mt-1">日時: 2025年7月4日（金）</p>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- BtoC Section -->
+            <div class="card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="icon-bg p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold">🏠 BtoC事業について <span class="text-lg font-normal text-gray-500">(個人のお客様)</span></h2>
+                </div>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">取り扱い範囲</h3>
+                        <p class="text-green-600 font-medium">✅ 個人宅向けリフォーム, エコキュート</p>
+                        <p class="text-red-600 font-medium">❌ シロアリ駆除関連</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">申込条件</h3>
+                        <p>・申込時: <span class="font-bold">満20歳〜満70歳未満</span></p>
+                        <p>・完済時: <span class="font-bold">満80歳まで</span></p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">支払いサイクル</h3>
+                        <p>工事完了 → お客様の完工確認 → <span class="font-bold kintori-highlight">3営業日後</span>に立替入金</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BtoB Section -->
+            <div class="card p-6">
+                 <div class="flex items-center mb-4">
+                    <div class="icon-bg p-3 rounded-full mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold">🏢 BtoB事業について <span class="text-lg font-normal text-gray-500">(法人のお客様)</span></h2>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-center bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-semibold text-lg">金利</h3>
+                        <p class="text-3xl font-bold kintori-highlight">実質年率 5.6%</p>
+                        <p class="text-sm text-gray-600">(目安として8～9%の金利感)</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">対象商材</h3>
+                        <p>✅ オフィス用品は基本的にOK</p>
+                        <p>✅ 野立てのソーラーパネルも対象</p>
+                        <p>⚠️ 防犯カメラは落雷による故障リスクが高い点に留意が必要</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">法務関連</h3>
+                        <p>・BtoB契約にはクーリングオフ制度の適用がない</p>
+                        <p>・万一の紛争については、裁判も視野に入れた毅然とした対応方針を確認</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Details Section -->
+        <div class="card mt-8 p-6">
+            <h2 class="text-2xl font-bold text-center mb-6">🛠️ 主力商材の詳細</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Solar Loan -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 flex items-center"><span class="text-2xl mr-2">☀️</span>太陽光ローン</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold">ローン期間と金利</h4>
+                            <p>・15年まで: <span class="font-bold">固定金利</span></p>
+                            <p>・20年まで: <span class="font-bold">変動金利</span> <span class="text-sm text-green-600">(申込多い)</span></p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">保証のポイント</h4>
+                            <p>「ローン期間」と「メーカー保証期間」を合わせることが望ましい。</p>
+                        </div>
+                         <div>
+                            <h4 class="font-semibold">集客方法</h4>
+                            <p>テレマーケティング、訪問販売、展示会</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Air Conditioner -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 flex items-center"><span class="text-2xl mr-2">💨</span>エアコンの取り扱い</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold">支払い方法別 早見表</h4>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-sm text-left">
+                                    <thead class="bg-gray-200">
+                                        <tr>
+                                            <th class="p-2"></th>
+                                            <th class="p-2 text-center">クレジット(割賦)</th>
+                                            <th class="p-2 text-center">リース</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="border-b">
+                                            <td class="p-2 font-medium">業務用エアコン</td>
+                                            <td class="p-2 text-center text-green-500 font-bold">✅ OK</td>
+                                            <td class="p-2 text-center text-red-500 font-bold">❌ NG</td>
+                                        </tr>
+                                        <tr class="border-b">
+                                            <td class="p-2 font-medium">天カセタイプ</td>
+                                            <td class="p-2 text-center text-green-500 font-bold">✅ OK</td>
+                                            <td class="p-2 text-center text-red-500 font-bold">❌ NG</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-2 font-medium">ルームエアコン</td>
+                                            <td class="p-2 text-center text-red-500 font-bold">❌ NG</td>
+                                            <td class="p-2 text-center text-red-500 font-bold">❌ NG</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                         <div>
+                            <h4 class="font-semibold">対象メーカー</h4>
+                            <p>ダイキン、三菱、日立など</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rules & Compliance -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div class="card p-6">
+                <h3 class="text-xl font-bold mb-2">⚠️ その他共通ルール ＆ コンプライアンス</h3>
+                <p class="mb-2"><strong>工事費の上限:</strong> クレジット対象の工事費は、<span class="text-xl font-bold kintori-highlight">物件の30%まで</span></p>
+                <p><strong>法規制:</strong> 特にBtoC事業において、<span class="font-bold">特定商取引法（特商法）</span>の遵守を徹底</p>
+            </div>
+
+            <!-- ToDo List -->
+            <div class="card p-6">
+                <h2 class="text-xl font-bold mb-3">🚀 今後の展開・ToDoリスト</h2>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <span class="mr-3 text-lg">1.</span>
+                        <div>
+                            <h4 class="font-bold">📄 提出書類の準備</h4>
+                            <p class="text-gray-600 text-sm">決算書、契約書の雛形、顧客提示用の見積書を早急に準備しアプラス社へ提出</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-lg">2.</span>
+                         <div>
+                            <h4 class="font-bold">🤝 外部連携</h4>
+                            <p class="text-gray-600 text-sm">商社（福岡の幸和商事など）に図面を送付し、発電シミュレーションを依頼</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-lg">3.</span>
+                        <div>
+                            <h4 class="font-bold">🗺️ 組織・人事</h4>
+                            <p class="text-gray-600 text-sm">福岡の拠点（鬼木氏、しのざき氏）を軸に、順次人員を配置</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer / Impression -->
+        <footer class="mt-10">
+            <div class="card p-6 bg-indigo-50 border border-indigo-200">
+                <h3 class="font-bold text-lg text-indigo-800 mb-2">所感</h3>
+                <p class="text-indigo-700">当社の事業拡大計画に対し、アプラス社も前向きな姿勢であり、今後の連携強化に大きな期待が持てる有意義な打ち合わせであった。まずは、信販契約開始に向けた書類作成を迅速に進める必要がある。</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
